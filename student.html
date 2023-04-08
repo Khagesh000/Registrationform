@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="student.css">
+    <script src="student.js"></script>
+</head>
+<body>
+<div class="main">
+    <div id="form">
+        <form action="welecome.html" name="form" method="get" onsubmit="return fun()" class="frame">
+            <p  style="font-weight: bold;" align="center">STUDENT REGISTERATION FORM</p>
+            <label>Name</label>
+            <input type="text" name="sname" size="26px" id="name1">
+            <div id="demo" align="right" style="margin-right: 44px;" style="color: red;"></div><br>
+            <label>Father Name</label>
+            <input type="text" name="fname" size="26px" id="name2"><br>
+            <div id="demo1" align="right" style="margin-right: 44px;" style="color: red;"></div><br>
+            <label>Address</label>
+            <input type="text" name="useradress" size="26px"><br>
+            <div id="demo2" align="right" style="margin-right: 44px;" style="color: red;"></div><br>
+            <label>Gender</label>
+            <input type="radio" name="gender" value="Male" id="type1">
+            <label class="radio">Male</label>
+            <input type="radio" name="gender" value="Female" id="type2">
+            <label class="radio">Female</label><br>
+            <div id="demo3" align="right" style="margin-right: 44px;" style="color: red;"></div><br>
+            <label>City</label>
+            <select>
+                <option>Select</option>
+                <option>Hyderabad</option>
+                <option>Vizianagaram</option>
+                <option>Vizag</option>
+                <option>Bangaloore</option>
+                <option>Chennai</option>
+            </select><br>
+            <label>Course</label>
+            <select>
+                <option>Select</option>
+                <option>CSE</option>
+                <option>AWS</option>
+                <option>EEE</option>
+                <option>MECH</option>
+                <option>ECE</option>
+            </select><br>
+            <label>Pincode</label>
+            <input type="text" name="pincode" size="26px"><br>
+            <div id="demo4" align="right" style="margin-right: 44px;" style="color: red;"></div><br>
+            <label>Emailid</label>
+            <input type="email" name="useremail" size="26px"><br>
+            <div id="demo5" align="right" style="margin-right: 44px;" style="color: red;"></div><br>
+            <label>DOB</label>
+            <input type="date" name="userdate" size="26px" placeholder="00/00/0000"><br>
+            <div id="demo6" align="right" style="margin-right: 44px;" style="color: red;"></div><br>
+            <label>Mobileno</label>
+            <input type="text" name="usernumber" size="26px"><br>
+            <div id="demo7" align="right" style="margin-right: 44px;" style="color: red;"></div><br>
+            <input type="button" name="reset" value="reset" style="margin-right: 134px;">
+            <input type="submit" name="submit" value="submit form">
+        </form>
+    </div>
+</div>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/jquery.validate.js">
+</script>
+    
+</html>
