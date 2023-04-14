@@ -41,3 +41,42 @@
     display: inline-block;
     margin-right: 0;
 }
+
+@media screen and (max-width:480px) {
+
+    .main{
+        flex-basis: 50%;
+       }
+    #form .radio{
+        margin-right: 0;
+    }
+    #form label{
+        width: 50px;
+        display: inline-block;
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+    #form .reset{
+       margin-bottom: 3px;
+    }
+        
+    }
+    @media screen and (max-width:570px) {
+    
+        .main{
+            flex-basis: 50%;
+           }
+        #form .radio{
+            margin-right: 0;
+        }
+        #form label{
+            width: 50px;
+            display: inline-block;
+            margin-right: 10px;
+            margin-bottom: 10px;
+        }
+        #form .reset{
+           margin-bottom: 3px;
+        }
+            
+        }
