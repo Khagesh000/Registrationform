@@ -41,7 +41,6 @@
     display: inline-block;
     margin-right: 0;
 }
-
 @media screen and (max-width:480px) {
 
     .main{
@@ -61,7 +60,7 @@
     }
         
     }
-    @media screen and (max-width:570px) {
+@media screen and (max-width:570px) {
     
         .main{
             flex-basis: 50%;
