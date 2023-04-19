@@ -25,7 +25,7 @@ function fun(){
         document.getElementById("demo").innerHTML="Please fill out this field"
         return false;
     }
-    else if(name.length<4){
+    else if(name.length<3){
         document.getElementById("demo").innerHTML="atleast 4 characters are required";
         return false;
     }
